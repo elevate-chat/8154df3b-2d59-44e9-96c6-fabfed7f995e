@@ -1,13 +1,11 @@
-import { Text } from "@/components/ui/text";
+import { H1 } from "@/components/ui/typography";
 import * as React from "react";
 import { View } from "react-native";
 
-// Update this page (the content is just a fallback if you fail to update the page)
-
 export default function Index() {
   return (
-    <View>
-      <Text>Index</Text>
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <H1>Hello</H1>
     </View>
   );
 }
